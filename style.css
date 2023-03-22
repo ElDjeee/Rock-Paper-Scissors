@@ -1,0 +1,96 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    color: #333;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#result {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#computer-choice {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.choices button img {
+    width: 100%;
+    height: auto;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .scoreboard div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .scoreboard span {
+    font-size: 2rem;
+  }
+  
+  .player-score {
+    color: green;
+  }
+  
+  .computer-score {
+    color: red;
+  }
+  
